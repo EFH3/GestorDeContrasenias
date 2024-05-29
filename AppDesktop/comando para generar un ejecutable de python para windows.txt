@@ -1,0 +1,10 @@
+1-se abre terminal modo Admin
+2-Ejecutar el sig comando: pip install pyinstaller
+3-Posicionarnos en la ruta donde tenemos los archivos de python
+4-Ejecutar el sig comando: pyinstaller --windowed --onefile --icon=./"nombreDelicono.ico "nombredelarchivo.py"
+Ejemplo: pyinstaller --windowed --onefile --icon=./lock3.ico "Gestor de Contraseñas.Py"
+
+
+--windowed: sirve para adaptar la interfaz grafica al usuario de windows
+--onefile: nos permite generar un solo exe sin necesidad de dependencias
+--icon: nos permite generar nuestro exe con icono
